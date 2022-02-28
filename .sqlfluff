@@ -1,0 +1,10 @@
+[sqlfluff]
+templater = jinja
+sql_file_exts = .sql,.sql.j2,.dml,.ddl
+verbose = 2
+nocolor = False
+dialect = exasol
+output_line_length = 120
+
+[sqlfluff:templater:jinja]
+load_macros_from_path = queries/helpers.sql

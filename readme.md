@@ -1,0 +1,1 @@
+Demo of SQLFluff failing to load file with defined jinja macros
