@@ -1,4 +1,4 @@
-{% import 'macros/helpers.sql' as helpers %}
+{% import 'helpers.sql' as helpers %}
 
 {{ helpers.test_helper }}
 
